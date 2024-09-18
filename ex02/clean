@@ -1,0 +1,1 @@
+find -df . \( -name "*~" -o -name "#*#" \) -print -delete
