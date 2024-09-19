@@ -6,7 +6,7 @@
 /*   By: estettle <stettler.etan@email.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 21:58:28 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/18 22:02:29 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/19 11:16:41 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@ void	ft_putchar(char c);
 
 void	ft_print_alphabet(void)
 {
-	int i;
+	int	i;
 
 	i = 'a';
 	while (i <= 'z')
