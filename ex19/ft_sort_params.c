@@ -6,7 +6,7 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 14:42:36 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/20 14:05:45 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/20 14:07:12 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ char	**ft_sort(int size, char **strings)
 	}
 	return (strings);
 }
-
+/*
 int	main(int argc, char **argv)
 {
 	int	i;
@@ -72,3 +72,4 @@ int	main(int argc, char **argv)
 		ft_putchar('\n');
 	}
 }
+*/
