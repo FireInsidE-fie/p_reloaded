@@ -6,13 +6,13 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 13:49:05 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/19 13:50:21 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/20 09:50:06 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strlen(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i])

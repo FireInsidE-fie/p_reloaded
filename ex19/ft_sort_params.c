@@ -6,7 +6,7 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 14:42:36 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/19 15:19:52 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/20 09:49:45 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ void	ft_putchar(char c);
 void	ft_putstr(char *str)
 {
 	int	i;
-	
+
 	i = 0;
 	while (str[i])
 		ft_putchar(str[i++]);
@@ -24,9 +24,10 @@ void	ft_putstr(char *str)
 void	ft_swap(char *s1, char *s2)
 {
 	char	*tmp;
+
 	tmp = s1;
 	s1 = s2;
-	s1 = tmp;
+	s2 = tmp;
 }
 
 char	**ft_sort(int size, char **strings)
@@ -40,8 +41,11 @@ char	**ft_sort(int size, char **strings)
 		j = 0;
 		while (strings[i][j])
 		{
-			if (strings[i][j] >= strings[i + 1][j])
+			if (strings[i][j] > strings[i + 1][j])
+			{
 				ft_swap(strings[i], strings[i + 1]);
+				break ;
+			}
 			j++;
 		}
 		i++;
