@@ -6,7 +6,7 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 14:42:36 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/20 10:38:00 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/20 14:05:45 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,25 +30,30 @@ void	ft_swap(char **s1, char **s2)
 	*s1 = tmp;
 }
 
+int	ft_strcmp(char *s1, char *s2)
+{
+	int	i;
+
+	i = 0;
+	while (s1[i] == s2[i])
+		i++;
+	return (s1[i] - s2[i]);
+}
+
 char	**ft_sort(int size, char **strings)
 {
 	int		i;
-	int		j;
 
 	i = 1;
 	while (i < size - 1)
 	{
-		j = 0;
-		while (strings[i][j])
+		if (ft_strcmp(strings[i], strings[i + 1]) > 0)
 		{
-			if (strings[i][j] > strings[i + 1][j])
-			{
-				ft_swap(&strings[i], &strings[i + 1]);
-				break ;
-			}
-			j++;
+			ft_swap(&strings[i], &strings[i + 1]);
+			i = 1;
 		}
-		i++;
+		else
+			i++;
 	}
 	return (strings);
 }
