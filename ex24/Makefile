@@ -1,22 +1,25 @@
 NAME = libft.a
-SRCDIR = srcs/
-INCDIR = includes/
+SRCDIR = srcs
+INCDIR = includes
 CC = cc
-CCFLAGS = -Wall -Wextra -Werror
-CFILES = $(SRCDIR)ft_putchar.c $(SRCDIR)ft_putstr.c $(SRCDIR)ft_strcmp.c \
-		 $(SRCDIR)ft_strlen.c $(SRCDIR)ft_swap.c
-OFILES = $(CFILES:.c=.o)
+CFLAGS = -Wall -Wextra -Werror
+AR = ar
+ARFLAGS = -r -c -s
+SRCS = $(SRCDIR)/ft_putchar.c $(SRCDIR)/ft_putstr.c $(SRCDIR)/ft_strcmp.c \
+		 $(SRCDIR)/ft_strlen.c $(SRCDIR)/ft_swap.c
+OFILES = $(SRCS:.c=.o)
 
 all: $(NAME)
 
 $(NAME): $(OFILES) 
-	ar -r $(OFILES)
+	$(AR) $(ARFLAGS) $(NAME) $(OFILES)
 %.o: %.c
-	$(CC) $(CCFLAGS) -c -o $@ $<
+	$(CC) $(CFLAGS) -I $(INCDIR) -c $< -o $@
 clean:
-	rm -rf $(OFILES) 
+	rm -f $(OFILES) 
 fclean: clean
-	rm -rf $(NAME)
-re:
+	rm -f $(NAME)
+re: fclean all 
 
+.PHONY: all clean fclean re
 
