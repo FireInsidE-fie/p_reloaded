@@ -28,7 +28,7 @@ void	ft_err(int err_nb)
 
 int	main(int argc, char **argv)
 {
-	int	file_desc;
+	int		file_desc;
 	char	c[1];
 
 	if (argc == 1)
@@ -45,7 +45,7 @@ int	main(int argc, char **argv)
 	if (!file_desc)
 	{
 		ft_err(3);
-		return(3);
+		return (3);
 	}
 	while (read(file_desc, c, 1) > 0)
 		write(1, &c, 1);

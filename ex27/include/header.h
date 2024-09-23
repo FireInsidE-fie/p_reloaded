@@ -14,11 +14,11 @@
 # define HEADER_H
 
 // Libraries
-#include <unistd.h>
-#include <fcntl.h>
+# include <unistd.h>
+# include <fcntl.h>
 
 // Helper functions
-int	ft_strlen(char *str);
+int		ft_strlen(char *str);
 void	ft_puterr(char *str);
 
 #endif
