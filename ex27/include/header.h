@@ -19,6 +19,6 @@
 
 // Helper functions
 int	ft_strlen(char *str);
-void	ft_putstr(char *str);
+void	ft_puterr(char *str);
 
 #endif

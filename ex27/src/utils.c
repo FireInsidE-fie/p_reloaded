@@ -25,11 +25,11 @@ int	ft_strlen(char *str)
 	return (count);
 }
 
-/*	ft_putstr()
- *	this function prints a string to stdout 
+/*	ft_puterr()
+ *	this function prints a string to the error output 
 */
-void	ft_putstr(char *str)
+void	ft_puterr(char *str)
 {
 	while (*str)
-		write(1, str++, 1);
+		write(2, str++, 1);
 }

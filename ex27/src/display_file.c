@@ -6,7 +6,7 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 15:01:12 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/23 10:44:26 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/23 10:48:22 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,12 @@
 */
 void	ft_err(int err_nb)
 {
-	// TODO : Change this function so that it puts a string to the error output
 	if (err_nb == 1)
-		ft_putstr("File name missing.");
+		ft_puterr("File name missing.\n");
 	else if (err_nb == 2)
-		ft_putstr("Too many arguments.");
+		ft_puterr("Too many arguments.\n");
 	else if (err_nb == 3)
-		ft_putstr("Cannot read file.");
+		ft_puterr("Cannot read file.\n");
 }
 
 int	main(int argc, char **argv)
@@ -48,12 +47,8 @@ int	main(int argc, char **argv)
 		ft_err(3);
 		return(3);
 	}
-	read(file_desc, c, 1);
-	while (*c >= 0)
-	{
+	while (read(file_desc, c, 1) > 0)
 		write(1, &c, 1);
-		read(file_desc, c, 1);
-	}
 	close(file_desc);
 	return (0);
 }
