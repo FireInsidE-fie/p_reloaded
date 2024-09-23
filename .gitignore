@@ -1,0 +1,6 @@
+ft_putchar.c
+out
+!ex24/srcs/ft_putchar.c
+*.o
+ex24/includes
+ex24/srcs
