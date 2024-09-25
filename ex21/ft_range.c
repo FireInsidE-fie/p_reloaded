@@ -6,7 +6,7 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 14:22:32 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/20 14:39:47 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/25 18:00:43 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	*ft_range(int min, int max)
 
 	if (min >= max)
 		return (NULL);
-	units = malloc(sizeof(int) * max - min - 1);
+	units = malloc(sizeof(int) * (max - min - 1));
 	if (!units)
 		return (NULL);
 	i = 0;

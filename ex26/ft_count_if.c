@@ -6,7 +6,7 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/21 14:41:44 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/21 14:54:31 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/25 18:13:32 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ int	ft_count_if(char **tab, int (*f)(char*))
 	}
 	return (count);
 }
+/*
+#include <stdio.h>
 
 int	is_even_length(char *string)
 {
@@ -36,8 +38,6 @@ int	is_even_length(char *string)
 		return (1);
 	return (0);
 }
-/*
-#include <stdio.h>
 
 int	main(void)
 {

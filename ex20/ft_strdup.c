@@ -6,7 +6,7 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 14:09:43 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/20 14:22:09 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/25 17:51:55 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,16 @@ char	*ft_strdup(char *src)
 }
 /*
 #include <stdio.h>
+#include <string.h>
 
 int	main(void)
 {
 	char	*melody = "Can. You. Hear. Me?";
 	char	*roxy = ft_strdup(melody);
+	char	*alis = strdup(melody);
 
 	printf("%s\n", melody);
 	printf("%s\n", roxy);
+	printf("%s\n", alis);
 }
 */
