@@ -6,20 +6,24 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 13:30:18 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/19 13:37:22 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/25 17:08:50 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_sqrt(int nb)
 {
-	float	i;
+	int	i;
 
 	i = 0;
 	if (nb <= 0)
 		return (i);
-	while (i * i != nb && i < nb / 2)
+	while (i <= nb / 2)
+	{
+		if (i * i == nb)
+			return (i);
 		i++;
-	return (i);
+	}
+	return (0);
 }
 /*
 #include <stdio.h>

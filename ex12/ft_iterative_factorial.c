@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@email.com>         +#+  +:+       +#+        */
+/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/19 11:17:32 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/19 11:23:33 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/25 16:56:30 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/25 16:58:36 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int	ft_iterative_factorial(int nb)
 
 int main(void)
 {
-	printf("%d\n", ft_iterative_factorial(4));
+	printf("%d\n", ft_iterative_factorial(30));
 	return (0);
 }
 */
