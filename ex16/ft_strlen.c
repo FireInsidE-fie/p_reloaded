@@ -6,7 +6,7 @@
 /*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 13:49:05 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/20 09:50:06 by estettle         ###   ########.fr       */
+/*   Updated: 2024/09/25 17:21:34 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,13 @@ int	ft_strlen(char *str)
 }
 /*
 #include <stdio.h>
+#include <string.h>
 
 int	main(void)
 {
-	printf("%d\n", ft_strlen("Can. You. Hear. Me?"));
+	char	*melody = "a\n";
+
+	printf("%d\n", ft_strlen(melody));
+	printf("%lu\n", strlen(melody));
 }
 */
