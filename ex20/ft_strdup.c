@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/20 14:09:43 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/25 17:51:55 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 10:59:35 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 10:59:41 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

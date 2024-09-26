@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/21 15:07:06 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/23 10:27:34 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 11:00:24 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 11:00:25 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

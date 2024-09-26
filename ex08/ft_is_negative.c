@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@email.com>         +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/18 22:06:00 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/18 22:13:13 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 10:57:15 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 10:57:16 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

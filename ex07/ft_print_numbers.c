@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@email.com>         +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/18 22:03:24 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/18 22:05:05 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 10:57:10 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 10:57:12 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

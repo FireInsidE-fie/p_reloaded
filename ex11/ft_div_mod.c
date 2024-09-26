@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@email.com>         +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/19 11:07:29 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/19 11:15:50 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 10:58:49 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 10:58:51 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

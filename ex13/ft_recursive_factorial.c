@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/19 13:06:55 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/25 16:59:41 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 10:59:00 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 10:59:01 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

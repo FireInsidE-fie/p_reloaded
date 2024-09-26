@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@email.com>         +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/18 22:23:31 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/18 22:27:34 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 10:57:26 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 10:57:26 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

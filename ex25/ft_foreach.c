@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_foreach.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/21 14:05:58 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/21 14:20:57 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 11:00:05 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 11:00:08 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_point.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/20 14:44:34 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/20 14:46:51 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 10:59:56 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 10:59:57 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

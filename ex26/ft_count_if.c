@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_count_if.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/21 14:41:44 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/25 18:13:32 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 11:00:12 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 11:00:12 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

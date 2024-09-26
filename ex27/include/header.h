@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   header.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/21 15:01:30 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/23 10:34:12 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 11:00:29 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 11:00:29 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

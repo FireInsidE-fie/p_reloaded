@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/25 16:56:30 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/25 16:58:36 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 10:58:56 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 10:58:56 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

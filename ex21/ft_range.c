@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_range.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estettle <stettler.etan@protonmail.com>    +#+  +:+       +#+        */
+/*   By: estettle <estettle@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/20 14:22:32 by estettle          #+#    #+#             */
-/*   Updated: 2024/09/25 18:00:43 by estettle         ###   ########.fr       */
+/*   Created: 2024/09/26 10:59:45 by estettle          #+#    #+#             */
+/*   Updated: 2024/09/26 10:59:46 by estettle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
