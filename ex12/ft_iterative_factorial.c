@@ -14,7 +14,7 @@ int	ft_iterative_factorial(int nb)
 {
 	int	i;
 
-	if (nb <= 0)
+	if (nb < 0 || nb > 13)
 		return (0);
 	i = 1;
 	while (nb > 0)
@@ -26,7 +26,7 @@ int	ft_iterative_factorial(int nb)
 
 int main(void)
 {
-	printf("%d\n", ft_iterative_factorial(30));
+	printf("%d\n", ft_iterative_factorial(12));
 	return (0);
 }
 */
