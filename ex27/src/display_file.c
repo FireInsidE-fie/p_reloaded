@@ -42,7 +42,7 @@ int	main(int argc, char **argv)
 		return (2);
 	}
 	file_desc = open(argv[1], O_RDONLY);
-	if (!file_desc)
+	if (file_desc < 0)
 	{
 		ft_err(3);
 		return (3);
